@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "projects/*",
+]
+
+exclude = [
+  "projects/hello_world",
+]
