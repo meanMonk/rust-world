@@ -56,6 +56,8 @@ fn main() {
     // expression eg.
     // Note that the x + 1 line doesn’t have a semicolon at the end
     // expression do not include ending semicolons.
+    // @todo : post idea.
+    // adding semicolons (;) to the end of expression, you turn it to statememt
     let y = {
         let x = 3;
         x + 2
@@ -63,6 +65,21 @@ fn main() {
     
     println!("the value y is {}", y);
     
+    
+    // Functions with Return Values
+    // Functions can return values to the code that calls them. 
+    // We don’t name return values, but we must declare their type after an arrow (->). 
+    // In Rust, the return value of the function is synonymous with the value of the final expression in the block of the body of a function
+    // You can return early from a function by using the return keyword and specifying a value,
+    
+    let number_five = get_number_five();
+    
+    println!("Number of value {}", number_five);
+    
+}
+
+fn get_number_five()-> i32 {
+    5
 }
 
 fn print_value_units(value: i32, label: char) {
