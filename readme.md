@@ -8,6 +8,7 @@
 
 # RUST
  - Rust is a statically typed language!
+ - Rust is an expression-based language!
 
 Rust also brings contemporary developer tools:
  - cargo: deps manager & build tool

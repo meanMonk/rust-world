@@ -2,11 +2,15 @@
 resolver = "2"
 
 members = [ 
-  "projects/full_month"
+  "projects/functions"
 ]
 
 exclude = [
   "projects/hello_world",
   "projects/hello_cargo",
   "projects/guessing_game",
+  "projects/chapter_3",
+  "projects/full_month",
+  "projects/no_type_annotations",
+  "projects/variables",
 ]
