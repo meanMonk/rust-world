@@ -1,11 +1,12 @@
 [workspace]
 resolver = "2"
 
-members = [
-    "projects/guessing_game",
+members = [ "projects/no_type_annotations", 
+  "projects/variables"
 ]
 
 exclude = [
   "projects/hello_world",
   "projects/hello_cargo",
+  "projects/guessing_game",
 ]

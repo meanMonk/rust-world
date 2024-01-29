@@ -6,6 +6,9 @@
 [follow](https://doc.rust-lang.org/book/ch00-00-introduction.html)
 
 
+# RUST
+ - Rust is a statically typed language!
+
 Rust also brings contemporary developer tools:
  - cargo: deps manager & build tool
  - rustfmt : formating tool for consisten coding styles across developers.
@@ -97,3 +100,12 @@ let mut y = 10; // y declare with value and value can be change.
 
 
 ```
+
+# Chapter 3
+We will learn:
+-
+ - variables
+ - basic types
+ - functions
+ - comments
+ - control flow
