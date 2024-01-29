@@ -68,3 +68,32 @@ target/debug/hello_cargo
 ```bash
 cargo run
 ```
+
+# Crate : 
+   - Crate is a collection of Rust source code files
+   - The project we’ve been building is a binary crate, which is an executable. 
+   - The `rand` crate is a library crate, which contains code that is intended to be used in other programs and can’t be executed on its own
+
+```
+    Crate Types.
+     - binary crates
+     - library crates.
+
+```
+
+   - Cargo is that running the cargo doc --open command will build documentation provided by all your dependencies locally and open it in your browser
+
+## Variables.
+```rust
+// Rust allows us to shadow the previous value of guess with a new one
+// 
+
+let x = 4; // var is declare with value as immutable and can not be changed. 
+// to change it we can make use shadowing.
+
+let x = 10; // use shadow.
+
+let mut y = 10; // y declare with value and value can be change.
+
+
+```
