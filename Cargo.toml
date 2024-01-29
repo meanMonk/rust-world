@@ -1,8 +1,8 @@
 [workspace]
 resolver = "2"
 
-members = [ "projects/no_type_annotations", 
-  "projects/variables"
+members = [ 
+  "projects/full_month"
 ]
 
 exclude = [
