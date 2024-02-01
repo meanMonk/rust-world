@@ -76,6 +76,10 @@ fn main() {
     
     println!("Number of value {}", number_five);
     
+    for number in (1..=4).rev(){
+        println!("{number}!");
+    }
+    
 }
 
 fn get_number_five()-> i32 {
