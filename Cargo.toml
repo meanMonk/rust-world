@@ -2,7 +2,7 @@
 resolver = "2"
 
 members = [ 
-  "projects/functions"
+  "projects/branches",
 ]
 
 exclude = [
