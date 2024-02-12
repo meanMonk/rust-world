@@ -105,8 +105,20 @@ let mut y = 10; // y declare with value and value can be change.
 # Chapter 3
 We will learn:
 -
- - variables
- - basic types
- - functions
- - comments
- - control flow
+ - variables (let/const) with or without (mut)
+ - Data types (Scalar [Integer / Floating point / Boolean / Character]) (Compound [Array / Tuples])
+ - functions 
+ - comments 
+ - control flow (if / if..else / if ... else.if ... else) (loop / while / for )
+
+Summary & Practice 
+
+```typescript
+// To practice with the concepts discussed in this chapter, try building programs to do the following:
+
+// 1. Convert temperatures between Fahrenheit and Celsius.
+// 2. Generate the nth Fibonacci number.
+// 3. Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” taking advantage of the repetition in the song.
+
+//When you’re ready to move on, we’ll talk about a concept in Rust that doesn’t commonly exist in other programming languages: ownership.
+```
